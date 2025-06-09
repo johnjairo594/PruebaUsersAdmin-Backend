@@ -21,6 +21,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'usuario' => 'jnolan',
+                'email' => 'jnolan@gmail.com',
                 'primerNombre' => 'John',
                 'segundoNombre' => 'Armstrong',
                 'primerApellido' => 'Nolan',
@@ -33,6 +34,7 @@ class UserSeeder extends Seeder
             ],
             [
                 'usuario' => 'wwhite',
+                'email' => 'wwhite@gmail.com',
                 'primerNombre' => 'Walter',
                 'segundoNombre' => 'William',
                 'primerApellido' => 'White',
@@ -45,6 +47,7 @@ class UserSeeder extends Seeder
             ],
             [
                 'usuario' => 'ngrayson',
+                'email' => 'ngrayson@gmail.com',
                 'primerNombre' => 'Nolan',
                 'segundoNombre' => 'Omniman',
                 'primerApellido' => 'Grayson',
@@ -57,6 +60,7 @@ class UserSeeder extends Seeder
             ],
             [
                 'usuario' => 'jvera',
+                'email' => 'jvera@gmail.com',
                 'primerNombre' => 'John',
                 'segundoNombre' => 'Jairo',
                 'primerApellido' => 'Vera',
@@ -69,6 +73,7 @@ class UserSeeder extends Seeder
             ],
             [
                 'usuario' => 'lgomez',
+                'email' => 'lgomez@gmail.com',
                 'primerNombre' => 'Luis',
                 'segundoNombre' => 'Martín',
                 'primerApellido' => 'Gómez',

@@ -14,7 +14,8 @@ class UserRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'usuario' => 'required|string|max:100|unique:users,usuario,' . $this->route('user')?->usuario,
+            'usuario' => 'required|string|max:100|unique:users,usuario,' . $this->route('user')?->id,
+            'email' => 'required|email|max:255',
             'primerNombre' => 'required|string|max:100',
             'segundoNombre' => 'nullable|string|max:100',
             'primerApellido' => 'required|string|max:100',
